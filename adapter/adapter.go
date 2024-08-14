@@ -1,5 +1,8 @@
 package _adapter
 
+// 提供一个接口，用于适配器的实现
+// 适配器类组合被适配的类，实现了接口的方法
+
 // AdapterInterface is an interface for adapter
 type AdapterInterface interface {
 	Implement() error
